@@ -10,11 +10,9 @@ An advanced and multiuse security library for C++ (C++17 and above) in the works
 	if ( thunderbolt::initialize_library( ) ) {
 		thunderbolt_initialize_entropy.erase_functions( );
 		thunderbolt::start_threat_detection_threads( );
-		thunderbolt::handle_threat_detection_threads( ); 	// do program stuff
+		thunderbolt::handle_threat_detection_threads( ); 	
 		{
-			std::thread thread( crackme_1 );
-			thread.detach( );
-		
+		    // do program stuff
 		} thunderbolt::end_threat_detection_threads( );
 	}
 	else {
