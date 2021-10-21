@@ -42,5 +42,3 @@ c_entropy - allows for erasing of function instructions on runtime, useful for o
 c_obfuscation - obfuscating code on runtime as well as compiletime
 c_junk - junker class, injects junk code and handles artifacts properly
 ```
-* Obfuscation at work
-<img src="https://i.imgur.com/KaCalwb.gif">
